@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main_area{
+    margin: 0;
+    padding: 50px;
+    height: 100%;
+    background: rgb(141, 99, 99);
+    position: fixed;
+    
+
+}
+
+.main_area a{
+    color:aliceblue;
+    font-size: 20px;
+
+}
+.main_area li{
+    color: cornsilk;
+}
+.content{
+    margin-left: 175px;
+}
+.content h1{
+    margin: 0;
+    padding: 0;
+}
+.sticky_1{
+    
+    background-color: rgb(165, 120, 146);
+    width: 300px;
+    border-style: double;
+    
+}
+.sticky_2{
+    background-color: rgb(202, 136, 141);
+    width: 300px;
+    border-style: double;
+   
+    
+}
+.sticky_box{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 20px;
+    border: black;
+}
+.sticky_box img{
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    float: left;
+    border: 3px double #000000;
+    
+
+}
+overflow: hidden;
+    left: -15px;
+    top: -15px;
+    position: absolute;
